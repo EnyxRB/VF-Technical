@@ -14,4 +14,6 @@
 
 ## Configuring React .env
 
-If you are using a port other than 4000 for the node server, please reconfigure this in client/.env
+Inside client, create the .env file and add the following line (change port based on port used for the node server):
+```REACT_APP_API_URL=http://localhost:4000```
+
